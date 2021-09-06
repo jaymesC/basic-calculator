@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="calculator" name="calculator">
+      <table>
+      <input type="text" name="display" id="display" disabled>
+      <br>
+      
+          <input type="button" name="one" value="1" id="button" onclick="calculator.display.value +='1'">
+          <input type="button" name="two" value="2" id="button" onclick="calculator.display.value +='2'">
+       
+          <input type="button" name="three" value="3" id="button" onclick="calculator.display.value +='3'">
+       
+          <input type="button" name="plus" value="+" id="button" onclick="calculator.display.value +='+'">
+        <br>
+        
+          <input type="button" name="four" value="4" id="button" onclick="calculator.display.value +='4'">
+        
+          <input type="button" name="five" value="5" id="button" onclick="calculator.display.value +='5'">
+        
+          <input type="button" name="six" value="6" id="button" onclick="calculator.display.value +='6'">
+       
+          <input type="button" name="minus" value="-" id="button" onclick="calculator.display.value +='-'">
+        <br>
+          <input type="button" name="seven" value="7" id="button" onclick="calculator.display.value +='7'">
+        
+          <input type="button" name="eight" value="8" id="button" onclick="calculator.display.value +='8'">
+          <input type="button" name="night" value="9"id="button" onclick="calculator.display.value +='9'">
+          <input type="button" name="multiply" id="button" value="X" onclick="calculator.display.value +='*'">
+          <br>
+          <input type="button" name="Clear" value="C" id="button" onclick="calculator.display.value =''">
+          <input type="button" name="zero" value="0" id="button" onclick="calculator.display.value +='0'">
+          <input type="button" name="equal" value="=" id="button" onclick="calculator.display.value = eval(calculator.display.value)">
+          <input type="button" name="divide" value="/" id="button" onclick="calculator.display.value +='/'">
+        </td>
+      </tr>
+    </table>
+    </form>
+
+
+
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>

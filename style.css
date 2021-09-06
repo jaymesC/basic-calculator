@@ -1,0 +1,20 @@
+#calculator{
+  display: flex;
+  align-content: center;
+  border: 8px solid blue;
+  /* padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-right: 350px;
+  margin-left: 350px; */
+}
+
+#display{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+#button{
+  border-style: hidden;
+  color: blue;
+  margin: 10px 10px;
+}
